@@ -1,4 +1,4 @@
-# Algorand Reorder Seed Words
+# Algorand find missing seed word
 
 ## Overview
 
