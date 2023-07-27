@@ -18,10 +18,10 @@ export function run(seed) {
     const maybeSeed = [...seed];
     for(let ui=0; ui<unknowns.length; ui++)
       maybeSeed[unknowns[ui]] = combo[ui];
-    let { addr } = testSeed(maybeSeed) ?? {}
-    if (addr) {
+    const res = testSeed(maybeSeed);
+    if (res && res.addr) {
       returnTrue = true;
-      console.log(addr, maybeSeed.join(' '));
+      console.log(res.addr, maybeSeed.join(' '));
     }
   }
   return returnTrue;
