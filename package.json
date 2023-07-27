@@ -1,0 +1,16 @@
+{
+  "name": "algorand-reorder-seed-words",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A script to fix simple human errors in writing down seed phrases for Algorand.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo No tests"
+  },
+  "keywords": [],
+  "author": "Bit @ D13.co//ective",
+  "license": "ISC",
+  "dependencies": {
+    "algosdk": "^1.18.1"
+  }
+}
