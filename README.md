@@ -11,7 +11,7 @@ node & npm. Find out how to install these on your platform [here](https://nodejs
 ## Usage
 
 ```
-git clone git@github.com:d13co/algorand-find-missing-seed-word.git
+git clone https://github.com/d13co/algorand-find-missing-seed-word.git
 cd algorand-find-missing-seed-word
 npm install
 node index.js [your 25 seed words here with the unknown one(s) replaced as "xxxxx"]
