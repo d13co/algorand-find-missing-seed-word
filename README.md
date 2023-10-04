@@ -8,6 +8,14 @@ Find a missing word in an Algorand seed phrase.
 
 node & npm. Find out how to install these on your platform [here](https://nodejs.org/).
 
+## Security & Dependencies
+
+The code does not include any network code or any other way to exfiltrate your seed phrase.
+
+The only package imported is the official JS algorand sdk `algosdk`, which is used to validate the seed phrase.
+
+The code is immutably published to npm as version 1.0.0 and there is a call for [community developers to audit it here](https://github.com/d13co/algorand-find-missing-seed-word/issues/1).
+
 ## Usage
 
 You can run this directly like so, replacing any seed word you don't know with XXX:
@@ -25,12 +33,6 @@ Ok to proceed? (y) y
 ```
 
 Type `y` and press ENTER to proceed.
-
-## Security & Dependencies
-
-The code does not include any network code or any other way to exfiltrate your seed phrase.
-
-The only package imported is the official JS algorand sdk `algosdk`, which is used to validate the seed phrase.
 
 ## Example output
 
