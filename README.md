@@ -10,8 +10,10 @@ node & npm. Find out how to install these on your platform [here](https://nodejs
 
 ## Usage
 
+You can run this directly like so, replacing any seed word you don't know with XXX:
+
 ```
-npx algorand-find-missing-seed-word@1.0.0 [your 25 seed words here with the unknown one(s) replaced as "XXX"]
+npx algorand-find-missing-seed-word@1.0.0 [your 25 seed words]
 ```
 
 The first time you run this, it will ask if it is OK to install the package.
