@@ -14,6 +14,16 @@ node & npm. Find out how to install these on your platform [here](https://nodejs
 npx algorand-find-missing-seed-word@1.0.0 [your 25 seed words here with the unknown one(s) replaced as "XXX"]
 ```
 
+The first time you run this, it will ask if it is OK to install the package.
+
+```
+Need to install the following packages:
+  algorand-find-missing-seed-word@1.0.0
+Ok to proceed? (y) y
+```
+
+Type `y` and press ENTER to proceed.
+
 ## Security & Dependencies
 
 The code does not include any network code or any other way to exfiltrate your seed phrase.
@@ -28,6 +38,11 @@ Replacing the first one with XXX (pretend it is missing) yields this:
 
 ```
 $ npx algorand-find-missing-seed-word@1.0.0 XXX kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
+
+Need to install the following packages:
+  algorand-find-missing-seed-word@1.0.0
+Ok to proceed? (y) y
+
 DCUWLEDKUEVNLDV5LLP5EXJ42D6W36RT52QFYGUR76NO5V65BFWITNIEVM merit kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
 DRNB3K645UMEP4US4QSZ3L4VVWQGVUPF4I7VEGRXNW5BIVZHI2UBVXPQI4 shallow kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
 
