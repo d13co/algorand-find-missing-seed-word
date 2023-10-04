@@ -11,10 +11,7 @@ node & npm. Find out how to install these on your platform [here](https://nodejs
 ## Usage
 
 ```
-git clone https://github.com/d13co/algorand-find-missing-seed-word.git
-cd algorand-find-missing-seed-word
-npm install
-node index.js [your 25 seed words here with the unknown one(s) replaced as "xxxxx"]
+npx algorand-find-missing-seed-word@1.0.0 [your 25 seed words here with the unknown one(s) replaced as "XXX"]
 ```
 
 ## Security & Dependencies
@@ -27,17 +24,18 @@ The only package imported is the official JS algorand sdk `algosdk`, which is us
 
 Correct seed phrase: merit kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
 
-Replacing the first one with xxxxx (pretend it is missing) yields this:
+Replacing the first one with XXX (pretend it is missing) yields this:
 
 ```
-
-$ node index.js xxxx kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when  06:53:52
+$ npx algorand-find-missing-seed-word@1.0.0 XXX kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
 DCUWLEDKUEVNLDV5LLP5EXJ42D6W36RT52QFYGUR76NO5V65BFWITNIEVM merit kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
 DRNB3K645UMEP4US4QSZ3L4VVWQGVUPF4I7VEGRXNW5BIVZHI2UBVXPQI4 shallow kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
-Finished
+
+Done!
+AFTER RECOVERY, MAKE SURE TO REKEY YOUR ADDRESS OR MOVE YOUR FUNDS TO A NEW ONE
 ```
 
-You may have multiple matches output, as in the above example.
+You may have multiple matches output, as in the above example. If you have more than one missing words, you will almost certainly get a lot of matches.
 
 ## Contributions
 

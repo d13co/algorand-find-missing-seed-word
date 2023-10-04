@@ -1,9 +1,12 @@
 {
-  "name": "algorand-reorder-seed-words",
+  "name": "algorand-find-missing-seed-word",
   "type": "module",
   "version": "1.0.0",
   "description": "A script to fix simple human errors in writing down seed phrases for Algorand.",
   "main": "index.js",
+  "bin": {
+    "algorand-find-missing-seed-word": "index.js"
+  },
   "scripts": {
     "test": "echo No tests"
   },

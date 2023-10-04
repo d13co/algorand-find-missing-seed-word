@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { testSeed, run } from './process.js';
 import { die } from './util.js';
 
@@ -21,7 +23,7 @@ function getSeed() {
 const seed = getSeed();
 
 if (run(seed, true)) {
-  console.log('Done!');
+  console.log('\nDone!\nAFTER RECOVERY, MAKE SURE TO REKEY YOUR ADDRESS OR MOVE YOUR FUNDS TO A NEW ONE');
   process.exit(0);
 }
 
