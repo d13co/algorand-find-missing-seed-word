@@ -44,6 +44,8 @@ You can try running the following command, which should fix the issue:
 mkdir %APPDATA%\npm
 ```
 
+Then try the `npx ...` command again.
+
 ## Example output
 
 Correct seed phrase: merit kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
