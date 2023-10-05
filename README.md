@@ -38,7 +38,11 @@ Type `y` and press ENTER to proceed.
 
 If you have just installed nodejs on Windows for this, you may get an error while trying to run the command: `code ENOENT ... C:\Users\User\AppData\Roaming\npm ...`
 
-You can try running `npm install -g npm` which should fix the issue.
+You can try running the following command, which should fix the issue:
+
+```
+mkdir %APPDATA%\npm
+```
 
 ## Example output
 
