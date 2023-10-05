@@ -34,6 +34,12 @@ Ok to proceed? (y) y
 
 Type `y` and press ENTER to proceed.
 
+### ⚠️  Windows issue 
+
+If you have just installed nodejs on Windows for this, you may get an error while trying to run the command: `code ENOENT ... C:\Users\User\AppData\Roaming\npm ...`
+
+You can try running `npm install -g npm` which should fix the issue.
+
 ## Example output
 
 Correct seed phrase: merit kiwi deposit enough barely hollow salad labor bench video add legal supreme pig jar there donate again burger dove cost trade crouch absorb when
